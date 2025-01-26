@@ -1,7 +1,12 @@
 import React from "react";
+import Hero from "./Hero";
 
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 };
 
 export default Header;
